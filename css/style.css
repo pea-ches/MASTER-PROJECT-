@@ -1,0 +1,12 @@
+:root {
+  --color-primario: #8600c5;
+  --color-secundario: #fdb92a;
+}
+
+nav {
+  background-color: var(--color-primario);
+}
+
+.c-s {
+  color: var(--color-secundario);
+}
