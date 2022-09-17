@@ -1,12 +1,102 @@
-:root {
-  --color-primario: #8600c5;
-  --color-secundario: #fdb92a;
+.s-c {
+  color: #fdb92a;
 }
 
-nav {
-  background-color: var(--color-primario);
+.p-c {
+  color: #8600c5;
 }
 
-.c-s {
-  color: var(--color-secundario);
+.icon {
+  margin: 1vh 1vw;
+  color: #fdb92a;
+  font-size: 200%;
 }
+
+.navbar {
+  display: flex;
+  background-color: #8600c5;
+  height: 18.35vh;
+}
+.navbar .searchBar {
+  width: 70%;
+  font-size: 2rem;
+}
+.navbar .logo {
+  display: flex;
+  width: 10%;
+  max-height: 10vh;
+}
+.navbar .logo .logoImg {
+  width: 100%;
+}
+
+.carousel-inner {
+  height: 81.65vh;
+  display: flex;
+  align-items: center;
+  background-color: #f8c75f;
+}
+.carousel-inner .d-block {
+  object-fit: cover;
+  margin: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3%;
+}
+.card-container .card {
+  display: flex;
+  align-items: center;
+  margin: 6%;
+  width: 300px;
+  height: 300px;
+  text-decoration: none;
+  border: 10px solid #8600c5;
+  border-radius: 15%;
+}
+.card-container .card .img-container {
+  position: relative;
+  margin: 20px;
+  width: 80%;
+  height: 150px;
+  overflow: hidden;
+}
+.card-container .card .img-container .card-img-top {
+  position: absolute;
+  border-radius: 20%;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+.card-container .card .card-title {
+  text-align: center;
+  color: #8600c5;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+  background-color: #8600c5;
+}
+
+.txt-title {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
