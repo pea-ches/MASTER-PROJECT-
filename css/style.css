@@ -13,25 +13,25 @@
 }
 
 .navbar {
-  display: flex;
   background-color: #8600c5;
-  height: 18.35vh;
+  height: 16vh;
 }
 .navbar .searchBar {
-  width: 70%;
-  font-size: 2rem;
+  width: 60%;
+  font-size: 1.5rem;
+  border-radius: 100px;
 }
 .navbar .logo {
   display: flex;
-  width: 10%;
-  max-height: 10vh;
+  width: 11%;
+  max-height: 12vh;
 }
 .navbar .logo .logoImg {
   width: 100%;
 }
 
 .carousel-inner {
-  height: 81.65vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   background-color: #f8c75f;
@@ -47,17 +47,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 3%;
+  padding: 0 3%;
 }
 .card-container .card {
   display: flex;
   align-items: center;
-  margin: 6%;
+  margin: 4% 4%;
   width: 300px;
-  height: 300px;
   text-decoration: none;
   border: 10px solid #8600c5;
-  border-radius: 15%;
 }
 .card-container .card .img-container {
   position: relative;
@@ -97,6 +95,10 @@ footer {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
