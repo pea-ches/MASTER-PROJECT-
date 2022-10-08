@@ -1,0 +1,26 @@
+[
+  {
+    "idProducto": 1,
+    "img": "imagenProducto1",
+    "nombreProducto": "Comida1",
+    "precio": 1000.0,
+    "valoracionProducto": 0.0,
+    "descripcionProducto": "Es una comida que alimenta a tu mascota"
+  },
+  {
+    "idProducto": 2,
+    "img": "imagenProducto2",
+    "nombreProducto": "Comida2",
+    "precio": 2000.0,
+    "valoracionProducto": 0.0,
+    "descripcionProducto": "Esta comida alimenta a 2 de tus mascotas"
+  },
+  {
+    "idProducto": 3,
+    "img": "imagenProducto3",
+    "nombreProducto": "Comida3",
+    "precio": 2000.0,
+    "valoracionProducto": 4.5,
+    "descripcionProducto": "Esta comida alimenta a 3 de tus mascotas"
+  }
+]
